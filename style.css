@@ -1,0 +1,215 @@
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div .imgprincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 30px auto;
+    width: relative;
+    max-width: 450px;
+    border-style:inset;
+    border-color: black;
+    border-radius: 15px;
+    
+    
+    
+    
+   
+}
+h1{
+    font-size: 1.5cm;
+    text-align: center;
+    color: blueviolet;
+}
+h2{
+    font-size: 1cm;
+    text-align: center;
+    color: blueviolet;
+}
+
+
+button{
+    display: flex;        
+    margin: 40px auto;
+    width: 300px;
+    background-color: black;
+    border-color: blueviolet;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: inset;
+    
+}
+button:hover{
+    transition: 0.3s;
+    padding: 2px 2px;
+    cursor: pointer;
+    border-bottom: 5px solid rgb(53, 16, 139);
+}
+
+.iconos{
+    margin: auto auto;
+    width: 50px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.centrado{
+    font-size: 22px;
+    display: flex;
+    margin: auto 55px;
+    color: white;
+   
+    
+}
+.tk .iconos{
+    width: 60px;
+}
+
+.yt .iconos{
+    width: 60px;
+    margin-left: -4px;
+}
+
+.twitter .iconos{
+    width: 60px;
+    margin-left: -4px;
+}
+
+.twitch .iconos{
+    width: 60px;
+    margin-left: -4px;
+}
+
+.fb .iconos{
+    margin-left: -4px;
+}
+
+.ig .iconos{
+    margin-left: -4px;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+.contactame .contactame2{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 4mm;
+}
+.contactame .contactame2:hover{
+  
+    color: blue;
+    
+}
+video{
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    margin: 30px auto;
+}
+
+iframe{
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 100px;
+    margin: 40px auto;
+}
+
+@media(min-width: 750px){
+    body{
+    background: #fff;
+    border-radius: 2.5rem;
+    box-shadow: 0 0.75rem 44px 0 rgb(78 81 82 / 12%);
+    padding: 1rem 4.5rem;
+    max-width: 41.5rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    max-width: 33.75rem;
+    
+    }
+    div .imgprincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin: 30px auto;
+        max-width: 500px;
+        border-style: outset;
+        border-color: black;
+        border-radius: 100px;
+    }
+
+    h1{
+        font-size: 2cm;
+    }
+    h2{
+        font-size: 1.4cm;
+    }
+    button{
+        width: 500px;
+        height: 100px;
+        margin-top: 80px;
+    }
+    .centrado{
+        font-size: 40px;
+        margin-left: 120px;
+    }
+    .contactame .contactame2{
+        font-size: 6mm;
+        display: block;
+        margin-top: 80px;
+    }
+    .iconos{
+        width: 100px;
+    }
+    .tk .iconos{
+        width: 120px;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    
+    .yt .iconos{
+        width: 120px;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    
+    .twitter .iconos{
+        width: 120px;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    
+    .twitch .iconos{
+        width: 120px;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    
+    .fb .iconos{
+        margin-left: -8px;
+    }
+    
+    .ig .iconos{
+        width: 120px;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    video{
+        width: 500px;
+    }
+    
+    iframe{
+        width: 500px;
+    }
+}
